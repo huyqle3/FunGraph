@@ -7,7 +7,7 @@ public class HuntAndKill : AlgorithmClass{
 	public int cRow = 0;
 	public int cColumn = 0;
 
-	public int maxRows = 16, maxColumns = 16;
+	public int maxRows = 8, maxColumns = 8;
 
 	private bool courseComplete = false;
 
@@ -21,20 +21,39 @@ public class HuntAndKill : AlgorithmClass{
 		string currentNum = key.Substring(currentPosition++ % key.Length, 1);
 		return int.Parse (currentNum);
 	}
+
+	public void clear(){		
+		courseComplete = false;
+		for(int i = 0; i < maxRows; i++){
+			for(int j = 0; j < maxColumns; j++){
+				mazeCells[i, j].visited = false;
+				destroyWall(mazeCells[i, j].northWall);
+				destroyWall(mazeCells[i, j].southWall);
+				destroyWall(mazeCells[i, j].eastWall);
+				destroyWall(mazeCells[i, j].northWall);
+			}
+		}
+		cRow = 0;
+		cColumn = 0;
+	}
 	
-	public void run(){
-		//Set the [0,0] as visited 
+	public void run(int length, int width, bool render){
+		maxRows = length;
+		maxColumns = width;
+
 		mazeCells [cRow, cColumn].visited = true;
 		while (! courseComplete) {			
 			kill();
 			hunt(); 
 		}
+		if(courseComplete){
+			render = true;
+		}
 	}
 
 	private void kill(){
 		while( isRoute(cRow, cColumn) ){
-			int direction = GetNextNumber ();
-			Debug.Log(direction);
+			int direction = Mathf.CeilToInt(UnityEngine.Random.Range(0.0f, 4.0f));
 			if (direction == 1 && isAvailable (cRow- 1, cColumn)) {
 				// North
 				destroyWall (mazeCells [cRow, cColumn].northWall);
@@ -136,5 +155,9 @@ public class HuntAndKill : AlgorithmClass{
 				wallDestroyed = true;
 			}
 		}
+	}
+
+	public void destroyAllWalls(){
+		GameObject.Destroy(GameObject.Find("Wall"));
 	}
 }

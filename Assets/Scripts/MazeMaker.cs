@@ -4,23 +4,51 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MazeMaker : MonoBehaviour {
-       protected int width = 16, length = 16;
+       protected int width = 8, length = 8;
        public GameObject Wall;
        protected float size = 2f;
        public MazeCell[,] mazeCells;
+	   public float timeLeft = 10;
+	   private HuntAndKill hk;
+	   public bool render = false;
        
 	// Use this for initialization
 	void Start() {
-	     initMaze();
-	     HuntAndKill hk = new HuntAndKill(mazeCells);
-		 hk.run();
-	     	     
+		initMaze();
+		hk = new HuntAndKill(mazeCells);
+		hk.run(length, width, render);
+		render = true;
 	}
 
 	// Update is called once per frame
 	void Update () {
-
+		Debug.Log(timeLeft);
+		if ( timeLeft < 0){
+			render = false;
+		}
+		if(render){
+			timeLeft -= Time.deltaTime;
+		}
+		else{			
+			hk.clear();
+			initMaze();			
+			hk = new HuntAndKill(mazeCells);			
+			hk.run(length, width, render);
+			render = true;
+			timeLeft = 10;
+		}
 	}
+
+
+
+	public IEnumerator StartAfterSeconds(float seconds)
+    {
+		while (!render){
+			yield return new WaitForSeconds (seconds);
+			Debug.Log ("Waited for " + seconds + " second and it's now " + Time.time);
+		}
+	}
+
 
 	private void initMaze(){
 		mazeCells = new MazeCell[length, width];
