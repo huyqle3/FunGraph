@@ -23,7 +23,7 @@ public abstract class Maze {
 
 	protected int length = 64;
 	protected int width = 64;
-	protected int max_height = 3;
+	protected int max_height = 10   ;
 	protected int min_height = 0;
 	protected Coord offset = new Coord(0,0);
 	protected int scale = 1;
