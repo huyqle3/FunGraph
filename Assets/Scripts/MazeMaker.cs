@@ -4,15 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MazeMaker : MonoBehaviour {
-
        protected int width = 16, length = 16;
        public GameObject Wall;
        protected float size = 2f;
-       private MazeCell[,] mazeCells;
+       public MazeCell[,] mazeCells;
        
 	// Use this for initialization
 	void Start() {
 	     initMaze();
+	     HuntAndKill hk = new HuntAndKill(mazeCells);
+		 hk.run();
+	     	     
 	}
 
 	// Update is called once per frame
@@ -49,5 +51,5 @@ public class MazeMaker : MonoBehaviour {
 		}
 
 	}
-
 }
+	
