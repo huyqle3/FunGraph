@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: ff7c63a8ea49c84438642fae4f68e051
+timeCreated: 1533914164
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_capeBackBot
+    100002: Body_capeBackMid
+    100004: Body_capeBackMidUpper
+    100006: Body_capeBackTop
+    100008: Body_capelSideBot
+    100010: Body_capelSideMid
+    100012: Body_capelSideMidUpper
+    100014: Body_capelSideTop
+    100016: Body_caperSideBot
+    100018: Body_caperSideMid
+    100020: Body_caperSideMidUpper
+    100022: Body_caperSideTop
+    100024: Body_capeTop
+    100026: Body_capeWaist
+    100028: Body_Head
+    100030: Body_headbot
+    100032: Body_lClav
+    100034: Body_lCuffBot
+    100036: Body_lCuffMid
+    100038: Body_lCuffTop
+    100040: Body_lElbow
+    100042: Body_lFingerBackMid
+    100044: Body_lFingerBackTop
+    100046: Body_lFingerBot
+    100048: Body_lFingerMid
+    100050: Body_lFingerMidBot
+    100052: Body_lFingerMidMid
+    100054: Body_lHand
+    100056: body_lowerspine
+    100058: Body_lShoulder
+    100060: Body_lThumbBot
+    100062: Body_lThumbTop
+    100064: Body_midSpine
+    100066: Body_Neck
+    100068: Body_neckBase
+    100070: Body_rClav
+    100072: Body_rCuffBot
+    100074: Body_rCuffMid
+    100076: Body_rCuffTop
+    100078: Body_rElbow
+    100080: Body_rFingerBackBot
+    100082: Body_rFingerBackMid
+    100084: Body_rFingerBackTop
+    100086: Body_rFingerMidBot
+    100088: Body_rFingerMidMid
+    100090: Body_rFingerMidTop
+    100092: body_rhand
+    100094: body_root
+    100096: Body_rShoulder
+    100098: Body_rThumb
+    100100: Body_rThumbBot
+    100102: Body_topSpine
+    100104: //RootNode
+    100106: material_0
+    100108: material_1
+    400000: Body_capeBackBot
+    400002: Body_capeBackMid
+    400004: Body_capeBackMidUpper
+    400006: Body_capeBackTop
+    400008: Body_capelSideBot
+    400010: Body_capelSideMid
+    400012: Body_capelSideMidUpper
+    400014: Body_capelSideTop
+    400016: Body_caperSideBot
+    400018: Body_caperSideMid
+    400020: Body_caperSideMidUpper
+    400022: Body_caperSideTop
+    400024: Body_capeTop
+    400026: Body_capeWaist
+    400028: Body_Head
+    400030: Body_headbot
+    400032: Body_lClav
+    400034: Body_lCuffBot
+    400036: Body_lCuffMid
+    400038: Body_lCuffTop
+    400040: Body_lElbow
+    400042: Body_lFingerBackMid
+    400044: Body_lFingerBackTop
+    400046: Body_lFingerBot
+    400048: Body_lFingerMid
+    400050: Body_lFingerMidBot
+    400052: Body_lFingerMidMid
+    400054: Body_lHand
+    400056: body_lowerspine
+    400058: Body_lShoulder
+    400060: Body_lThumbBot
+    400062: Body_lThumbTop
+    400064: Body_midSpine
+    400066: Body_Neck
+    400068: Body_neckBase
+    400070: Body_rClav
+    400072: Body_rCuffBot
+    400074: Body_rCuffMid
+    400076: Body_rCuffTop
+    400078: Body_rElbow
+    400080: Body_rFingerBackBot
+    400082: Body_rFingerBackMid
+    400084: Body_rFingerBackTop
+    400086: Body_rFingerMidBot
+    400088: Body_rFingerMidMid
+    400090: Body_rFingerMidTop
+    400092: body_rhand
+    400094: body_root
+    400096: Body_rShoulder
+    400098: Body_rThumb
+    400100: Body_rThumbBot
+    400102: Body_topSpine
+    400104: //RootNode
+    400106: material_0
+    400108: material_1
+    2100000: Mat
+    4300000: material_0
+    4300002: material_1
+    7400000: Take 001
+    7400002: IdleFloat
+    7400004: FloatTowards
+    7400006: Aggro
+    7400008: AggroToFloat
+    7400010: Attack
+    7400012: SwipeAttack
+    7400014: Damaged
+    7400016: TwinkleHands
+    9500000: //RootNode
+    13700000: material_0
+    13700002: material_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 807
+      lastFrame: 1120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleFloat
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 819
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FloatTowards
+      takeName: Take 001
+      firstFrame: 820
+      lastFrame: 899
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aggro
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AggroToFloat
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 807
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SwipeAttack
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Damaged
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TwinkleHands
+      takeName: Take 001
+      firstFrame: 271
+      lastFrame: 319
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
