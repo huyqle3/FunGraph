@@ -61,6 +61,7 @@ Material:
     - _DstBlend: 0
     - _FinalColor: 5
     - _FinalPower: 5
+    - _GammaLinear: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

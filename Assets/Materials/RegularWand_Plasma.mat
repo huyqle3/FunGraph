@@ -33,7 +33,7 @@ Material:
     m_Floats:
     - _Cutoff: 0.5
     - _DistanceOffset: 0.5
-    - _FinalPower: 1
+    - _FinalPower: 0.8
     - _FresnelExp: 2.5
     - _FresnelExp2: 2.5
     - _OffsetPower: 0.0035

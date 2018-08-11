@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class WandController : MonoBehaviour {
 
+    #region Singleton
+
+    public static WandController instance;
+
+    #endregion
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     GameObject spell;
 
 	// Use this for initialization
@@ -12,12 +23,15 @@ public class WandController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {	
+	void Update () {
+        
 	}
 
     // Expelliarmus
     public void InitializeExpelliarmus()
     {
+        VRWandControls.instance.currentSpell = "Expelliarmus";
+
         if (!spell)
         {
             GameObject expelliarmusOrb = Instantiate(Resources.Load("Prefabs/Expelliarmus"), this.transform) as GameObject;
@@ -44,8 +58,15 @@ public class WandController : MonoBehaviour {
         Vector3 projectileDir = -projectile.transform.right;
         Vector3 projectilePos = projectile.transform.position + projectileDir * 1.5f;
 
-        projectile.GetComponent<Rigidbody>().velocity = projectileDir * 10.0f;
+        projectile.GetComponent<Rigidbody>().velocity = projectileDir * 20.0f;
+
+        SoundManager.instance.PlayAudioClip("ExpectoPatronum");
 
         Destroy(projectile, 8.0f);
+    }
+
+    public void InitializeExpectoPatronum()
+    {
+        VRWandControls.instance.currentSpell = "ExpectoPatronum";
     }
 }

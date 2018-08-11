@@ -23,6 +23,6 @@ public class SFXControllerV3D : MonoBehaviour
             Instantiate(waveSfxPrefabs[Random.Range(0, waveSfxPrefabs.Length)], transform.position, transform.rotation);
         }
 
-        loopingSFX.volume = globalProgress;
+        loopingSFX.volume = globalProgress / 2.5f;
     }
 }

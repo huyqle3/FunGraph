@@ -196,7 +196,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -224,7 +224,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -273,7 +273,7 @@ ModelImporter:
       name: AggroToFloat
       takeName: Take 001
       firstFrame: 128
-      lastFrame: 807
+      lastFrame: 159
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
